@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoPInMG | Laboratory of Plant Immunity and Molecular Genetics – NIT Rourkela</title>
+  <meta name="description" content="Laboratory of Plant Immunity and Molecular Genetics (LoPInMG), Principal Investigator: Dr. Binod Bihari Sahu, Department of Life Science, NIT Rourkela." />
+  <!-- Google Fonts: Inter & Public Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Merriweather:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Institutional Banner with Small, Compact Logos (Hardcoded inline styles so they NEVER render giant) -->
+  <div class="inst-bar">
+    <div class="container inst-bar-inner">
+      <div class="inst-brand-group">
+        <div class="inst-logo-badge" style="width: 32px; height: 32px; min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; border-radius: 6px; overflow: hidden; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 2px; flex-shrink: 0;">
+          <img src="assets/gallery/National Institute of Technology, Rourkela (NIT Rourkela) logo.jpg" alt="NITR Logo" style="width: 100%; height: 100%; object-fit: contain; display: block;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'><rect width=\'40\' height=\'40\' fill=\'%23ffffff\'/><text x=\'50%\' y=\'55%\' fill=\'%23000000\' font-family=\'monospace\' font-size=\'10\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>NITR</text></svg>';" />
+        </div>
+        <div class="inst-logo-badge" style="width: 32px; height: 32px; min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; border-radius: 6px; overflow: hidden; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 2px; flex-shrink: 0;">
+          <img src="assets/gallery/biological science logo_.jpg" alt="Life Science Logo" style="width: 100%; height: 100%; object-fit: contain; display: block;" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 40 40\'><rect width=\'40\' height=\'40\' fill=\'%23ffffff\'/><text x=\'50%\' y=\'55%\' fill=\'%23000000\' font-family=\'monospace\' font-size=\'10\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>LS</text></svg>';" />
+        </div>
+        <div class="inst-titles-wrap">
+          <span class="inst-main-title">National Institute of Technology Rourkela</span>
+          <span class="inst-sub-title">Department of Life Science • LoPInMG Research Group</span>
+        </div>
+      </div>
+      <div class="inst-links">
+        <a href="https://www.nitrkl.ac.in/LS/~sahub/" target="_blank" rel="noopener">Official NITR Faculty Portal ↗</a>
+        <a href="https://scholar.google.com/citations?user=HiRg_msAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header (iOS 27 Liquid Glass) -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand">
+        <div class="brand-badge">LoPInMG</div>
+        <div class="brand-text">
+          <span class="brand-title">Plant Immunity & Genetics</span>
+          <span class="brand-sub">NIT Rourkela, India</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#pi" class="nav-link">Principal Investigator</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#projects" class="nav-link">Funded Grants</a>
+        <a href="#publications" class="nav-link">Publications</a>
+        <a href="#team" class="nav-link">People & Alumni</a>
+        <a href="#gallery" class="nav-link">Gallery & Achievements</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle Dark/Light Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <button id="mobileMenuBtn" class="icon-btn mobile-only" aria-label="Toggle Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="pill-badge glass-card">
+          <span class="dot"></span> Laboratory of Plant Immunity and Molecular Genetics (LoPInMG)
+        </div>
+        <h1>Decoding Molecular <span class="highlight">Plant Immunity</span> & Engineering Resilient Crops</h1>
+        <p class="hero-lead">
+          Led by <strong>Dr. Binod Bihari Sahu</strong> at the Department of Life Science, NIT Rourkela, our group deciphers the molecular architecture of nonhost resistance (NHR), fungal effector biology, one-carbon metabolic defense, and iron biofortification across <em>Arabidopsis</em>, Rice (<em>Oryza sativa</em>), and Soybean (<em>Glycine max</em>).
+        </p>
+        <div class="hero-btns">
+          <a href="#research" class="btn btn-primary">Explore Research Pillars</a>
+          <a href="#gallery" class="btn btn-outline">Lab Gallery & Milestones</a>
+          <a href="#contact" class="btn btn-ghost">Contact Coordinates →</a>
+        </div>
+
+        <!-- Metric Strip -->
+        <div class="metrics-grid">
+          <div class="metric-card glass-card">
+            <span class="metric-num">1,600+</span>
+            <span class="metric-label">Scholar Citations (h-index: 21)</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-num">45+</span>
+            <span class="metric-label">Peer-Reviewed Papers & Books</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-num">6+</span>
+            <span class="metric-label">ANRF / SERB / CSIR / Govt Grants</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-num">12</span>
+            <span class="metric-label">Doctoral Scholars (9 Ongoing, 3 Awarded)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Visual Card -->
+      <div class="hero-visual">
+        <div class="featured-image-showcase glass-card">
+          <div class="fi-header">
+            <span class="mono-tag">RESEARCH SUITE • NIT ROURKELA</span>
+            <span class="status-tag">Active Bio-Assays</span>
+          </div>
+          <div class="fi-media-box">
+            <img src="assets/gallery/lab-banner.jpg" alt="LoPInMG Research Facility" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 600 400\'><defs><linearGradient id=\'bggrd\' x1=\'0\' y1=\'0\' x2=\'1\' y2=\'1\'><stop offset=\'0%\' stop-color=\'%23111113\'/><stop offset=\'100%\' stop-color=\'%2327272a\'/></linearGradient></defs><rect width=\'600\' height=\'400\' fill=\'url(%23bggrd)\'/><circle cx=\'480\' cy=\'120\' r=\'100\' fill=\'rgba(255,255,255,0.08)\'/><path d=\'M 50 320 Q 200 180 350 250 T 550 120\' fill=\'none\' stroke=\'%23ffffff\' stroke-width=\'3\' stroke-dasharray=\'6,6\' opacity=\'0.5\'/><text x=\'50%\' y=\'46%\' fill=\'%23ffffff\' font-family=\'Georgia, serif\' font-size=\'22\' font-weight=\'bold\' text-anchor=\'middle\'>LoPInMG Molecular Lab</text><text x=\'50%\' y=\'56%\' fill=\'%23a3a3a3\' font-family=\'sans-serif\' font-size=\'14\' text-anchor=\'middle\'>Department of Life Science • NIT Rourkela</text></svg>';" />
+          </div>
+          <div class="fi-footer">
+            <h4>Molecular Plant Immunity & Pathogen Interaction Suite</h4>
+            <p>Advanced wet-lab and computational screening facilities for Rice Blast, Sheath Blight, and transgenic crop validation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPAL INVESTIGATOR SECTION -->
+  <section id="pi" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Group Leader</span>
+        <h2>Principal Investigator</h2>
+      </div>
+
+      <div class="pi-grid">
+        <div class="pi-card glass-card">
+          <div class="pi-avatar">
+            <img src="1655095640Binod__002_.jpg" alt="Dr. Binod Bihari Sahu" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 120 120\'><rect width=\'120\' height=\'120\' fill=\'%2327272a\'/><text x=\'50%\' y=\'54%\' fill=\'%23ffffff\' font-family=\'serif\' font-size=\'32\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'>BBS</text></svg>';" />
+          </div>
+          <h3>Dr. Binod Bihari Sahu</h3>
+          <p class="pi-role">Associate Professor, Department of Life Science</p>
+          <p class="pi-inst">National Institute of Technology Rourkela</p>
+          
+          <div class="pi-contact-list">
+            <div><strong>Office:</strong> Room MN-246, Main Building</div>
+            <div><strong>Email:</strong> <a href="mailto:sahub@nitrkl.ac.in">sahub@nitrkl.ac.in</a></div>
+            <div><strong>Phone:</strong> +91-661-246-2782</div>
+          </div>
+
+          <div class="pi-badges">
+            <a href="https://scholar.google.com/citations?user=HiRg_msAAAAJ&hl=en" target="_blank" rel="noopener" class="badge-link">Google Scholar</a>
+            <a href="https://www.researchgate.net/profile/Binod-Sahu" target="_blank" rel="noopener" class="badge-link">ResearchGate</a>
+            <a href="https://www.nitrkl.ac.in/LS/~sahub/" target="_blank" rel="noopener" class="badge-link">NITR Profile</a>
+          </div>
+        </div>
+
+        <div class="pi-bio">
+          <h3>Academic Biography & Career Trajectory</h3>
+          <p>
+            <strong>Dr. Binod Bihari Sahu</strong> is an Associate Professor in the Department of Life Science at the National Institute of Technology (NIT) Rourkela, Odisha, India. Before joining NIT Rourkela in February 2014, he conducted five years of postdoctoral research (2009–2014) at the <strong>Department of Agronomy, Iowa State University (USA)</strong> in Prof. Madan K. Bhattacharyya's laboratory, where he pioneered forward-genetics identification of <em>Arabidopsis</em> Nonhost Resistance (NHR) genes (including US-patented <em>PSS1</em> and <em>PSS30</em>) and engineered them into transgenic soybean against <em>Phytophthora sojae</em> and <em>Fusarium virguliforme</em>.
+          </p>
+          <p>
+            He earned his Ph.D. in Biotechnology from the <strong>BRIC-Institute of Life Sciences (ILS), Bhubaneswar</strong> (Utkal University) under Dr. Birendra Prasad Shaw, elucidating the biochemical and molecular regulation of plasma membrane H<sup>+</sup>-ATPase and salt-induced transcriptomes in the halophyte <em>Suaeda maritima</em> and rice.
+          </p>
+
+          <div class="timeline-grid">
+            <div class="timeline-box glass-card">
+              <span class="tl-year">2014 – Present</span>
+              <h4>Faculty (Assistant → Associate Professor)</h4>
+              <p>Department of Life Science, NIT Rourkela, Odisha, India</p>
+            </div>
+            <div class="timeline-box glass-card">
+              <span class="tl-year">2009 – 2014</span>
+              <h4>Postdoctoral Research Associate</h4>
+              <p>Department of Agronomy, Iowa State University, Ames, IA, USA</p>
+            </div>
+            <div class="timeline-box glass-card">
+              <span class="tl-year">2003 – 2009</span>
+              <h4>Ph.D. in Life Sciences / Biotechnology</h4>
+              <p>Institute of Life Sciences (ILS), Bhubaneswar & Utkal University</p>
+            </div>
+            <div class="timeline-box glass-card">
+              <span class="tl-year">Editorial & IP</span>
+              <h4>US Patent Holder & Academic Editor</h4>
+              <p>Academic Editor (<em>PLOS ONE</em>), Guest Editor (<em>MDPI Agronomy</em>), Coordinator (Plant-Microbe Interactions Workshop)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH PILLARS SECTION -->
+  <section id="research" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Scientific Investigations</span>
+        <h2>Core Research Thrusts</h2>
+        <p class="section-sub">Bridging molecular genetics, effectoromics, metabolomics, and crop biotechnology to safeguard global rice and legume production.</p>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 01</div>
+          <h3>Nonhost Resistance (NHR) & Translational Immunity</h3>
+          <p>Characterizing <em>Arabidopsis thaliana</em> NHR genes (<em>PSS1, PSS30, IMPORTIN ALPHA 2</em>) and transferring functional orthologous cassettes into rice and soybean to confer durable, broad-spectrum resistance against hemibiotrophic and necrotrophic pathogens.</p>
+          <div class="rc-tags">
+            <span>Arabidopsis</span><span>Transgenic Rice</span><span>PSS Genes</span>
+          </div>
+        </article>
+
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 02</div>
+          <h3>Rice Blast & Sheath Blight Effector Biology</h3>
+          <p>Dissecting the infection strategies of <em>Magnaporthe oryzae</em> (Rice Blast) and <em>Rhizoctonia solani</em> (Sheath Blight). Developing effector- and metabolite-based plant vaccination strategies and profiling host programmed cell death (PCD).</p>
+          <div class="rc-tags">
+            <span>M. oryzae</span><span>R. solani</span><span>Plant Vaccines</span>
+          </div>
+        </article>
+
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 03</div>
+          <h3>One-Carbon (1C) Metabolism & Defense Metabolomics</h3>
+          <p>Investigating how <em>AtMTHFR2</em>-regulated one-carbon metabolism, folate/methionine cycles, and secondary metabolite reprogramming orchestrate broad-spectrum systemic immunity against fungal invasion.</p>
+          <div class="rc-tags">
+            <span>AtMTHFR2</span><span>1C Metabolism</span><span>LC-MS Metabolomics</span>
+          </div>
+        </article>
+
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 04</div>
+          <h3>Rhizosphere Microbiome & Abiotic-Biotic Cross-Tolerance</h3>
+          <p>Harnessing beneficial rhizobacteria (such as <em>Exiguobacterium indicum</em> OMCW-10) for simultaneous hexavalent chromium Cr(VI) phytoremediation and biocontrol of rice blast, alongside halophyte salt-stress genomics.</p>
+          <div class="rc-tags">
+            <span>Biopriming</span><span>Rhizosphere Omics</span><span>Salt Stress</span>
+          </div>
+        </article>
+
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 05</div>
+          <h3>Rice Panicle Architecture & Iron Biofortification</h3>
+          <p>Decoding ethylene/auxin crosstalk and miRNA networks governing spikelet grain filling in compact vs. lax rice panicles, alongside genetic biofortification to elevate bioavailable Iron (Fe) in polished rice grain.</p>
+          <div class="rc-tags">
+            <span>Grain Filling</span><span>Fe Biofortification</span><span>Panicle Plasticity</span>
+          </div>
+        </article>
+
+        <article class="research-card glass-card">
+          <div class="rc-num">Pillar 06</div>
+          <h3>Computational Genomics & Structural Interactomics</h3>
+          <p>Applying dual RNA-seq transcriptomics, sequence-based polymorphic (SBP) marker mapping, and in-silico host-pathogen protein docking (ChimeraX / AlphaFold) to accelerate candidate resistance gene discovery.</p>
+          <div class="rc-tags">
+            <span>Dual RNA-Seq</span><span>SBP Markers</span><span>3D Interactomics</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPONSORED GRANTS & WORKSHOPS SECTION -->
+  <section id="projects" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Extramural Funding</span>
+        <h2>Sponsored Research Grants & Initiatives</h2>
+      </div>
+
+      <div class="table-responsive glass-card">
+        <table class="grants-table">
+          <thead>
+            <tr>
+              <th>Project Title</th>
+              <th>Funding Agency</th>
+              <th>Role</th>
+              <th>Focus System</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Enhancing Rice Durable Resistance through <em>Rhizoctonia solani</em> Effector and Metabolite-Based Vaccination</strong></td>
+              <td><span class="agency-badge">ANRF (SERB), Govt. of India</span></td>
+              <td>Principal Investigator</td>
+              <td>Rice – <em>R. solani</em> Vaccination</td>
+            </tr>
+            <tr>
+              <td><strong>Enhancing broad-spectrum disease resistance against rice blast by engineering orthologous nonhost resistance genes of <em>Arabidopsis</em> in rice</strong></td>
+              <td><span class="agency-badge">SERB, Govt. of India</span></td>
+              <td>Principal Investigator</td>
+              <td>Rice – <em>M. oryzae</em> NHR</td>
+            </tr>
+            <tr>
+              <td><strong>Non-host resistance programmed cell death in <em>Arabidopsis</em> for engineering broad-spectrum and durable disease resistance in rice</strong></td>
+              <td><span class="agency-badge">SERB, Govt. of India</span></td>
+              <td>Principal Investigator</td>
+              <td>Programmed Cell Death (PCD)</td>
+            </tr>
+            <tr>
+              <td><strong>Engineering <em>Arabidopsis</em>-specific nonhost resistance mechanism in rice for durable and broad-spectrum sheath blight resistance against <em>Rhizoctonia solani</em></strong></td>
+              <td><span class="agency-badge">Govt. of Odisha (ST & BT)</span></td>
+              <td>Principal Investigator</td>
+              <td>Sheath Blight Resistance</td>
+            </tr>
+            <tr>
+              <td><strong>Role of microorganisms on the productivity of the Bhitarkanika Mangrove Forest and potentiality of rhizosphere inhabiting bacteria in mangrove reforestation</strong></td>
+              <td><span class="agency-badge">CSIR, Govt. of India</span></td>
+              <td>Co-Investigator</td>
+              <td>Mangrove Rhizosphere Microbiome</td>
+            </tr>
+            <tr>
+              <td><strong>Studies on Condition Assessment & Management Plan for Mahanadi River Basin</strong></td>
+              <td><span class="agency-badge">NRCD, Ministry of Jal Shakti</span></td>
+              <td>Co-Investigator</td>
+              <td>Ecological & Basin Assessment</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE PUBLICATIONS SECTION -->
+  <section id="publications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Scholarly Output</span>
+        <h2>Selected Publications & Springer Monographs</h2>
+        <p class="section-sub">Filter by research domain or search by keyword, pathogen, or author. Click <strong>Cite BibTeX</strong> to copy formatted references.</p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="pub-controls">
+        <input type="text" id="pubSearch" class="pub-search" placeholder="Search by title, gene (PSS30, IMPORTIN, MTHFR2), pathogen, or year..." />
+        <div class="pub-filters" id="pubFilters">
+          <button class="filter-btn active" data-filter="all">All Works</button>
+          <button class="filter-btn" data-filter="nhr">Nonhost Resistance (NHR)</button>
+          <button class="filter-btn" data-filter="rice">Rice Blast & Sheath Blight</button>
+          <button class="filter-btn" data-filter="book">Books (Springer)</button>
+          <button class="filter-btn" data-filter="abiotic">Halophytes & Grain Filling</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Publication List rendered by app.js -->
+      <div id="pubList" class="pub-list"></div>
+    </div>
+  </section>
+
+  <!-- PEOPLE & ALUMNI SECTION -->
+  <section id="team" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Lab Members</span>
+        <h2>Research Team, Students & Alumni</h2>
+        <p class="section-sub">Meet the Ph.D. scholars, project students, and alumni driving discovery at LoPInMG.</p>
+      </div>
+
+      <div class="team-tabs">
+        <button class="team-tab active" data-group="phd">Ongoing Ph.D. Scholars (9)</button>
+        <button class="team-tab" data-group="project">Project Students (3)</button>
+        <button class="team-tab" data-group="alumni">Graduated Ph.D. Alumni (3)</button>
+      </div>
+
+      <div id="teamGrid" class="team-grid"></div>
+    </div>
+  </section>
+
+  <!-- LAB GALLERY & PROFESSOR'S ACHIEVEMENTS SECTION -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="gallery-top-bar">
+        <div class="section-header" style="margin-bottom: 0;">
+          <span class="section-kicker">Visual Archive & Milestones</span>
+          <h2>Lab Work, Achievements & Scientific Gallery</h2>
+          <p class="section-sub">Highlighting Dr. Binod Bihari Sahu's patents, book releases, ANRF/SERB milestones, wet-lab pathosystem assays, and computational structural models.</p>
+        </div>
+
+        <div class="gallery-admin-btns">
+          <button id="openUploadModalBtn" class="btn btn-primary">+ Upload Lab Photo / Work</button>
+          <button id="exportGalleryJsonBtn" class="btn btn-outline" title="Copy JSON array to paste into app.js">Export JSON</button>
+        </div>
+      </div>
+
+      <!-- Professor's Key Honors & Milestones Banner -->
+      <div class="achievements-ribbon">
+        <div class="ach-card glass-card">
+          <span class="ach-badge">US PATENT</span>
+          <h4>Patented Nonhost Resistance (NHR) Technology</h4>
+          <p>Co-inventor on US Patent for <em>Arabidopsis</em> NHR genes (<em>PSS1 / PSS30</em>) conferring broad-spectrum resistance in transgenic soybean against <em>P. sojae</em> & <em>F. virguliforme</em>.</p>
+        </div>
+        <div class="ach-card glass-card">
+          <span class="ach-badge">SPRINGER AUTHOR</span>
+          <h4>2 International Books Published (Springer)</h4>
+          <p>Authored <em>Panicle Architecture of Rice and its Relationship with Grain Filling</em> & Edited <em>Omics Science for Rhizosphere Biology</em> (2021).</p>
+        </div>
+        <div class="ach-card glass-card">
+          <span class="ach-badge">ANRF / SERB & GOVT GRANTS</span>
+          <h4>Principal Investigator on 4+ Major Projects</h4>
+          <p>Leading national translational grants on Rice Blast NHR engineering, <em>R. solani</em> effector vaccination, and programmed cell death (PCD).</p>
+        </div>
+        <div class="ach-card glass-card">
+          <span class="ach-badge">EDITORIAL & MENTORSHIP</span>
+          <h4>Academic Editor & National Workshop Chair</h4>
+          <p>Academic Editor for <em>PLOS ONE</em>, Guest Editor for <em>MDPI Agronomy</em>, and Coordinator of Gene Cloning & Plant-Microbe Workshops at NIT Rourkela.</p>
+        </div>
+      </div>
+
+      <!-- Gallery Category Filter Buttons -->
+      <div class="gallery-filters" id="galleryFilters">
+        <button class="g-filter-btn active" data-gfilter="all">All Media</button>
+        <button class="g-filter-btn" data-gfilter="achievement">Prof. Sahu's Achievements & Books</button>
+        <button class="g-filter-btn" data-gfilter="wetlab">Wet-Lab & Pathosystem Assays</button>
+        <button class="g-filter-btn" data-gfilter="computational">Bioinformatics & Structural Models</button>
+        <button class="g-filter-btn" data-gfilter="events">Workshops, Defenses & Lab Life</button>
+      </div>
+
+      <!-- Dynamic Masonry/Grid Gallery -->
+      <div id="galleryGrid" class="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Connect & Collaborate</span>
+        <h2>Contact LoPInMG</h2>
+        <p class="section-sub">Get in touch with the Laboratory of Plant Immunity and Molecular Genetics at NIT Rourkela.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card glass-card" style="grid-column: 1 / -1; max-width: 700px; margin: 0 auto;">
+          <h3>Laboratory Coordinates</h3>
+          <p class="contact-lead">Laboratory of Plant Immunity and Molecular Genetics (LoPInMG)</p>
+
+          <div class="coord-list">
+            <div class="coord-item">
+              <span class="coord-icon">📍</span>
+              <div>
+                <strong>Principal Investigator Office & Lab</strong>
+                <p>Dr. Binod Bihari Sahu<br>Room No. MN-246, Department of Life Science,<br>National Institute of Technology Rourkela,<br>Sector 1, Rourkela – 769008, Odisha, India</p>
+              </div>
+            </div>
+
+            <div class="coord-item">
+              <span class="coord-icon">✉️</span>
+              <div>
+                <strong>Official Email</strong>
+                <p><a href="mailto:sahub@nitrkl.ac.in">sahub@nitrkl.ac.in</a></p>
+              </div>
+            </div>
+
+            <div class="coord-item">
+              <span class="coord-icon">☎️</span>
+              <div>
+                <strong>Telephone (Office)</strong>
+                <p>+91-661-246-2782</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map for NIT Rourkela Life Science -->
+          <div class="map-wrapper">
+            <iframe 
+              title="NIT Rourkela Department of Life Science Map"
+              src="https://www.google.com/maps?q=Department+of+Life+Science+NIT+Rourkela&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BibTeX Citation Modal -->
+  <div id="bibModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-box glass-card">
+      <div class="modal-header">
+        <h4>BibTeX Citation</h4>
+        <button id="closeModal" class="icon-btn">✕</button>
+      </div>
+      <pre id="bibContent" class="bib-pre"></pre>
+      <div class="modal-actions">
+        <button id="copyBibBtn" class="btn btn-primary">Copy BibTeX to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- UPLOAD NEW GALLERY ITEM MODAL -->
+  <div id="uploadModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-box glass-card">
+      <div class="modal-header">
+        <h4>Add Photo / Achievement to LoPInMG Gallery</h4>
+        <button id="closeUploadModal" class="icon-btn">✕</button>
+      </div>
+      <form id="galleryUploadForm" class="inquiry-form">
+        <div class="form-group">
+          <label for="imgTitle">Title / Milestone Headline *</label>
+          <input type="text" id="imgTitle" required placeholder="e.g., Rice Sheath Blight Detached Leaf Assay / PhD Defense" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="imgCategory">Category *</label>
+            <select id="imgCategory" required>
+              <option value="achievement">Prof. Sahu's Achievements & Books</option>
+              <option value="wetlab">Wet-Lab & Pathosystem Assays</option>
+              <option value="computational">Bioinformatics & Structural Models</option>
+              <option value="events">Workshops, Defenses & Lab Life</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="imgDate">Date / Year *</label>
+            <input type="text" id="imgDate" required placeholder="e.g., Nov 2026" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="imgFile">Select Image File (PNG/JPG/WebP) or Leave Empty if Using Folder Path</label>
+          <input type="file" id="imgFile" accept="image/*" />
+        </div>
+
+        <div class="form-group">
+          <label for="imgPath">Or Local VS Code File Path (e.g., <code>assets/gallery/lab1.jpg</code>)</label>
+          <input type="text" id="imgPath" placeholder="assets/gallery/photo.jpg" />
+        </div>
+
+        <div class="form-group">
+          <label for="imgCaption">Scientific Caption / Description *</label>
+          <textarea id="imgCaption" rows="3" required placeholder="Describe the experiment, phenotype, award, or workshop..."></textarea>
+        </div>
+
+        <div style="display:flex; gap:0.75rem; margin-top:1rem;">
+          <button type="submit" class="btn btn-primary full-width">Add to Gallery</button>
+          <button type="button" id="clearCustomGalleryBtn" class="btn btn-outline" title="Reset browser-uploaded items">Reset Custom</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FULLSCREEN IMAGE LIGHTBOX MODAL -->
+  <div id="lightboxModal" class="modal-backdrop" aria-hidden="true">
+    <div class="lightbox-box glass-card">
+      <button id="closeLightbox" class="icon-btn lightbox-close">✕</button>
+      <div class="lightbox-media-wrap" id="lightboxMediaWrap"></div>
+      <div class="lightbox-meta">
+        <div class="lightbox-tags">
+          <span id="lbCategory" class="pub-year-badge"></span>
+          <span id="lbDate" class="mono-tag"></span>
+        </div>
+        <h3 id="lbTitle"></h3>
+        <p id="lbCaption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Laboratory of Plant Immunity and Molecular Genetics (LoPInMG)</strong>
+        <p>Department of Life Science, National Institute of Technology Rourkela, Odisha – 769008, India</p>
+      </div>
+      <div class="gallery-admin-btns">
+        <p>© <span id="yearSpan"></span> Dr. Binod Bihari Sahu Lab • Designed for Academic & Research Excellence</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
